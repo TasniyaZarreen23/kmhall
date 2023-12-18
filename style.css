@@ -1,0 +1,87 @@
+.item{
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .navbar{ 
+   background-color: #f16c60;
+    
+   
+  }
+
+  .py-4 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    
+}
+  
+
+.btn{
+  background-color: #ff6f61
+} 
+
+.btn:hover{
+  background-color: aquamarine;
+}
+
+.space{
+
+ justify-content: center;
+}
+
+
+
+
+#navhover {
+  opacity: 1;
+}
+
+#navhover:hover {
+  opacity: 0.6;
+  transition: 0.2s all ease-in-out; 
+}
+
+
+body {
+	background: linear-gradient(-45deg, #ee8b6d, #e675a0, #90e1ff, #8beed7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.fobg{
+   background: linear-gradient(rgba(6, 3, 21, 0.25), hsla(255, 15%, 5%, 0.45)), url(../img/backgrounrFooter.jpg) center center no-repeat; decoding = "sync" opacity: 0;
+   background-size: cover;">
+}
